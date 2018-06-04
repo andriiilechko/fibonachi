@@ -1,5 +1,5 @@
 function fib(n) {
-  var num;
+  let num;
   if (n >= 2) {
     num = fib(n - 1) + fib(n - 2);
   } else {
@@ -7,5 +7,5 @@ function fib(n) {
   }
   return num;
 }
-var userNum=+prompt('Введіть порядковий номер числа Фібоначчі');
+let userNum=+prompt('Введіть порядковий номер числа Фібоначчі');
 alert(fib(userNum));
